@@ -1248,7 +1248,6 @@ PRODUCT_PACKAGES += \
     imsdcservice-saidl.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_identity_credential.xml \
-    manifest_non_qmaa.xml \
     manifest_non_qmaa_extn.xml \
     qcrilhook-saidl.xml \
     qms-saidl.xml \
