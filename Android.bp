@@ -23152,6 +23152,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/dolbycodec2",
             ],
             shared_libs: [
+                "libshim_dolby",
                 "libbase",
                 "liblog",
                 "libcodec2",
@@ -23328,6 +23329,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.dolby.media.c2@1.0-service",
             ],
             shared_libs: [
+                "libshim_dolby",
                 "libbase",
                 "liblog",
                 "libcodec2",
