@@ -774,9 +774,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_streaminteg_filter \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libC2D2 \
-    libc2d30_bltlib \
-    libsoc_helper_jni \
     libqconfigclient \
     libqcrilDataModule \
     libqcrilNr \
@@ -1277,7 +1274,6 @@ PRODUCT_PACKAGES += \
     ATFWD-daemon \
     TrustedUISampleTAClient \
     TrustedUISampleTest \
-    TrustZoneAccessService \
     adpl \
     adsprpcd \
     batterysecret \
