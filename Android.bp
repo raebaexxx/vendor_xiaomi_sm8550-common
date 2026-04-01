@@ -22725,10 +22725,74 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
+    name: "init.class_main",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.class_main.sh",
+    filename: "init.class_main.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-kalama",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-kalama.sh",
+    filename: "init.kernel.post_boot-kalama.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
+    filename: "init.kernel.post_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.class_core",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qcom.class_core.sh",
+    filename: "init.qcom.class_core.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.early_boot",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qcom.early_boot.sh",
+    filename: "init.qcom.early_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.post_boot",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
+    filename: "init.qcom.post_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qcom.sensors",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.sensors.sh",
     filename: "init.qcom.sensors.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qcom.sh",
+    filename: "init.qcom.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.kernel",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qti.kernel.sh",
+    filename: "init.qti.kernel.sh",
     soc_specific: true,
 }
 
@@ -22745,6 +22809,14 @@ sh_binary {
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.qcv.sh",
     filename: "init.qti.qcv.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.write",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qti.write.sh",
+    filename: "init.qti.write.sh",
     soc_specific: true,
 }
 
@@ -23809,6 +23881,14 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+sh_binary {
+    name: "system_dlkm_modprobe",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/system_dlkm_modprobe.sh",
+    filename: "system_dlkm_modprobe.sh",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "tftp_server",
     owner: "xiaomi",
@@ -24016,6 +24096,14 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "vendor_modprobe",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/vendor_modprobe.sh",
+    filename: "vendor_modprobe.sh",
     soc_specific: true,
 }
 
