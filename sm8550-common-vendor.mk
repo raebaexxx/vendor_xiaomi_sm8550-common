@@ -1124,7 +1124,7 @@ PRODUCT_PACKAGES += \
     imsdcservice-saidl.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_identity_credential.xml \
-    manifest_vendor.xiaomi.hardware.mlipay.xml
+    manifest_vendor.xiaomi.hardware.mlipay.xml \
     qcrilhook-saidl.xml \
     qms-saidl.xml \
     qtiradio-saidl.xml \
