@@ -7783,7 +7783,7 @@ cc_prebuilt_library_shared {
                 "libqc2audio_utils",
                 "libqc2audio_basecodec",
                 "libcodec2_vndk",
-                "libstagefright_foundation-v33",
+                "libstagefright_foundation",
                 "libpalclient",
                 "libc++",
                 "libc",
