@@ -17,9 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
-    vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
-    vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
-    vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/izat_device.conf:$(TARGET_COPY_OUT_ODM)/etc/izat_device.conf \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
@@ -981,13 +978,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccvndhal_aidl-V1-ndk \
     consumerir.qcom \
     libaudioroute_ext \
-    libmfido \
     libmiClstc \
     libmiXmlParser \
-    libmt \
-    libmt@1.3 \
     libstnfc-auth \
-    libtida@1.2 \
     libwvkeybox \
     nfc_nci.nqx.default.hw \
     nfc_nci.st21nfc.st \
@@ -995,9 +988,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-V3-ndk \
     vendor.qti.gnss-V4-ndk \
     vendor.qti.gnss-service \
-    vendor.xiaomi.hardware.tidaservice@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.1 \
-    vendor.xiaomi.hardware.tidaservice@1.2 \
     CACertService \
     CneApp \
     IWlanService \
@@ -1084,9 +1074,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0-service.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
-    manifest_vendor.xiaomi.hardware.mfidoca.xml \
-    manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    manifest_vendor.xiaomi.hardware.tidaservice.xml \
     vendor.qti.camera.aon-impl-1.3.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
@@ -1183,12 +1170,9 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     qccsyshal@1.2-service \
     wfdservice64 \
-    fidoca \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.nfc@1.2-service-st \
-    vendor.nxp.hardware.nfc@2.0-service \
-    mtd@1.3 \
-    tidad@1.2
+    vendor.nxp.hardware.nfc@2.0-service
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
