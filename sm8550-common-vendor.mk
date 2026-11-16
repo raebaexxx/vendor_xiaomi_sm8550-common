@@ -1177,3 +1177,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sm8550-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
+
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.micharge@1.0-service \
+    vendor.xiaomi.hardware.micharge@1.0-impl \
+    vendor.xiaomi.hardware.micharge@1.0
